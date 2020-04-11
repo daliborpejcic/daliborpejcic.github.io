@@ -1,0 +1,91 @@
+html, body
+{
+    font-family: Arial, Helvetica, sans-serif;   
+    margin: 0;
+}
+
+header
+{
+    
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+   
+}
+
+h1
+{
+    font-size: 90px;
+    position: relative;
+    top: -20px;
+    color: rgb(196, 47, 188);
+}
+
+header img
+{
+    border-radius: 120px;
+    width: 750px;
+    
+}
+
+.content
+{
+    
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+
+img.big-image
+{
+   
+    max-width: 100%;
+    padding-top: 20px;
+}
+
+footer
+{
+    padding: 20px 20px;
+    background-color: rgb(0, 0, 0);
+}
+
+footer ul
+{
+    text-align: center;
+    
+}
+
+#kr
+{
+    transform: rotate(-180deg);
+}
+
+footer ul li
+{
+    
+    display: inline-block;
+    color: blueviolet;
+    font-size: 26px;
+}
+
+.dropbtn 
+{
+    background-color: rgb(210, 64, 255);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown
+{
+    text-align: center;
+}
+
+  
+  
+  
+.dropbtn:hover 
+{
+    background-color: #8a009c;
+}
