@@ -10,7 +10,7 @@ footer{
     font-family: Clip;
     src: url("https://acupoftee.github.io/fonts/Clip.ttf");
   }
-  
+
   height: 70px;
   background-color: #000000;
   color: white;
@@ -21,15 +21,15 @@ footer{
 * {
     margin: 0;
     padding: 0;
-  }
+}
 
-  .wrapperr {
-    height: 100%;
-    font-family: 'Quicksand', sans-serif;
-    line-height: 1.5;
-    word-spacing: 4px;
-    letter-spacing: 1px;
-  }
+.wrapperr {
+  height: 100%;
+  font-family: 'Quicksand', sans-serif;
+  line-height: 1.5;
+  word-spacing: 4px;
+  letter-spacing: 1px;
+}
 
 .fixed-bg {
   background-attachment: fixed;
