@@ -4,18 +4,32 @@ html,body {
   height: 100%;
 }
 
+footer{
+  
+  @font-face {
+    font-family: Clip;
+    src: url("https://acupoftee.github.io/fonts/Clip.ttf");
+  }
+  
+  height: 70px;
+  background-color: #000000;
+  color: white;
+  font-family: Clip;
+  text-shadow: 2px 2px #e100ff;
+
+}
 * {
     margin: 0;
     padding: 0;
   }
 
-.wrapperr {
-  height: 100%;
-  font-family: 'Quicksand', sans-serif;
-  line-height: 1.5;
-  word-spacing: 4px;
-  letter-spacing: 1px;
-}
+  .wrapperr {
+    height: 100%;
+    font-family: 'Quicksand', sans-serif;
+    line-height: 1.5;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+  }
 
 .fixed-bg {
   background-attachment: fixed;
@@ -61,8 +75,8 @@ html,body {
 
 header{
     
-    font-family: 'Roboto Condensed', sans-serif;
-    text-align: center;
+  
+  text-align: center;
     height: 780px;
     background-color: rgb(0, 0, 0);
     
@@ -98,10 +112,10 @@ header{
       transparent
     );
     
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -60%);
     letter-spacing: 2;
     left: 50%;
-    top: 87%;
+    top: 650px;
     font-family: "Clip";
     text-transform: uppercase;
     font-size: 6em;
@@ -303,8 +317,6 @@ header{
   }
 } 
 .blink-image {
-  -moz-animation: blink normal 2s infinite ease-in-out; /* Firefox */
-  -webkit-animation: blink normal 2s infinite ease-in-out; /* Webkit */
-  -ms-animation: blink normal 2s infinite ease-in-out; /* IE */
+  
   animation: blink normal 5s infinite ease-in-out; /* Opera and prob css3 final iteration */
 }
